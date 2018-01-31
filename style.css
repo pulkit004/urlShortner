@@ -1,0 +1,140 @@
+body{
+	margin: 0;
+	font-family: 'Roboto', sans-serif; 
+	/*text-rendering: geometricPrecision;*/
+	-webkit-font-smoothing: antialiased;
+	background-color: #E3EBF0;
+	position: relative;
+}
+
+.grid-container {
+  display: grid;
+  grid-column-gap: 1px;
+  grid-template-columns: auto auto;
+  padding: 10px;
+  align-items: center;
+
+}
+
+.grid-item{
+	padding: 20px;
+}
+
+
+.btn{
+	width: 100%;
+	padding: 12px 16px;
+	font-size: 14px;
+	border: 1px solid #283E51;
+	color: #283E51;
+	cursor: pointer;
+	background-color: transparent;
+	
+}
+
+
+h1{
+	font-size: 32px;
+	font-weight: 500;
+}
+
+h4{
+	font-size: 20px;
+	font-weight: 300;
+	text-align: center;
+	margin: 0;
+}
+
+hr{
+	background-color: #EFEFEF;
+  height: 3px;
+  border: none;
+  width: 50%;
+}
+
+p{
+	line-height: 26px;
+	font-size: 18px;
+}
+.small{
+	font-size: 12px;
+	text-align: center;
+	margin: 0;
+}
+
+.cover{
+	background: #4B79A1;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #283E51, #4B79A1);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #283E51, #4B79A1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	color: white;
+	text-align: center;
+	padding: 20px 50px;
+}
+
+.box{
+	border: 1px solid #283E51;
+	background-color: #FFFFFF;
+	margin: 20px auto;
+	padding: 20px 20px;
+	width: 30%;
+}
+
+form{
+	margin: 0;
+}
+label{
+	box-sizing: border-box;
+	display: inline-block;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.input-control{
+	width: 100%;
+	display: inline-block;
+	box-sizing: border-box;
+	padding: 6px 10px;
+	border: 1px solid #9a9a9a;
+	font-size: 18px;
+}
+
+.urlResult{
+
+	margin-top: 10px;
+  min-height: 150px;
+  width: 100%;
+  box-sizing: border-box;
+  display: inline-block;
+  border: 1px solid #283E51;
+}
+
+#btnShorten:hover{
+	background: #4B79A1;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #283E51, #4B79A1);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #283E51, #4B79A1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	color: white;
+}
+
+#btnExpand:hover{
+	background: #4B79A1;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #283E51, #4B79A1);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #283E51, #4B79A1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	color: white;
+	
+}
+.footer{
+	margin-top: 20px;
+}
+
+@media(max-width: 716px){
+	.cover{
+		padding: 20px 15px;
+	}
+	.box{
+		width: 80%;
+	}
+	.btn{
+		padding: 8px;
+
+	}
+}

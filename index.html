@@ -7,6 +7,7 @@
 	<title>URL - Short | Expand</title>
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,500" rel="stylesheet">
 	<link rel="stylesheet" href="style.css">
+	
 </head>
 <body>
 	<div class="cover">
@@ -18,7 +19,7 @@
 	<div class="box">
 		<form>
 			<label for="url">Enter the URL</label>
-			<input type="text" class="input-control" id="inputField">
+			<input type="text" class="input-control" id="input">
 			<div class="grid-container">
 				<div class="grid-item">
 					<button class="btn" id="btnShorten">Shorten URL</button>
@@ -28,13 +29,16 @@
 				</div>
 			</div>
 		</form>
-		<div class="urlResult"></div>
+		<div class="urlResult" id="responseField"></div>
 	</div>
 
 	<div class="footer">
 		<p class="small">Maintained by <span><a href="http://pulkitverma.xyz" target="_blank">Pulkit Verma</a></span>.</p>
 		<p class="small">Copyright © 2018. URL Shortner. All rights reserved.</p>
 	</div>
+<script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+ crossorigin="anonymous"></script>
+	<script src="main.js"></script>
 </body>
 </html>
 
